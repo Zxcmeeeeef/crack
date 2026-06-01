@@ -5,7 +5,7 @@ import threading
 import json
 from datetime import datetime
 
-API_URL = "http://localhost:5000/api"
+API_URL = "https://crack-ajaw.onrender.com/api"
 
 class ChatWindow:
     def __init__(self, parent, user_data, access_token, on_logout_callback):
