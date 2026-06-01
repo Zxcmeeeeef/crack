@@ -3,7 +3,7 @@ from tkinter import messagebox, ttk
 import requests
 import json
 
-API_URL = "http://localhost:5000/api"
+API_URL = "https://crack-ajaw.onrender.com/api"
 
 class LoginWindow:
     def __init__(self, parent, on_success_callback):
